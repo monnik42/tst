@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <VAST version="4.0">
+          <Ad id="SINGLE_AD" sequence="1">
+            <InLine>
+              <AdSystem>Test</AdSystem>
+              <AdTitle>Single Test Ad</AdTitle>
+              <Impression>
+                <![CDATA[ http://localhost:3000/track?event=impression ]]>
+              </Impression>
+              <Creatives>
+                <Creative id="1">
+                  <Linear skipoffset="00:00:02">
+                    <Duration>00:00:05</Duration>
+                    <TrackingEvents>
+                      <Tracking event="start">http://localhost:3000/track?event=start</Tracking>
+                      <Tracking event="complete">http://localhost:3000/track?event=complete</Tracking>
+                    </TrackingEvents>
+                    <VideoClicks>
+                      <ClickThrough>
+                        <![CDATA[ https://example.com ]]>
+                      </ClickThrough>
+                    </VideoClicks>
+                    <MediaFiles>
+                      <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720" bitrate="2000">
+                        <![CDATA[https://rr5---sn-bvvbaxivnuxqjvhj5nu-hxhs.googlevideo.com/videoplayback?expire=1794255886&ei=rtfxareoLI2Y-coP0uOUKA&ip=69.246.17.206&id=o-ADVANrmAEndVFzg3tsIadJL41kq2bvt5FQYUOx-Y-ijA&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=156&met=1794234286%2C&mh=RL&mm=31%2C29&mn=sn-bvvbaxivnuxqjvhj5nu-hxhs%2Csn-q4fzen7y&ms=au%2Crdu&mv=m&mvi=5&pl=23&rms=au%2Cau&pcm2=no&initcwndbps=3856750&bui=AZFAFb9WcaUW55FA4kGWBsLDbCGyNn4yuSdi_W0qYFttk9JOPZoOl_dFF3_BF41xjOSU9YM93miiOfeB&spc=mpRQ_wdu14eLm8b_C6Y0Zcteugmtx6gjy_rNZxU1d-SdTvnvCV_9OlHtyJ31S6qtHoYTePiI3w&vprv=1&svpuc=1&mime=video%2Fmp4&ns=J4hpxGyKY4lUM4WeOuIxdAUZ&rqh=1&cnr=14&ratebypass=yes&dur=8.080&lmt=1732085892406347&mt=1794233861&fvip=2&epbp=1&fexp=51565115%2C52323633&c=WEB_EMBEDDED_PLAYER&sefc=1&txp=5430434&n=KUe0j-VFB-pGaw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AE0s2JYwRgIhAJGc3Iqe7X2t6x1BOHgdHt01B49t4_sDheedZQx-8ZOgAiEA9rRHWDFWyojuXi99e_sruBwxuTk6KKeYLzoCBxGNE5E%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgGHR0bFtMTpxlEUxbd1mGPBPilg7oSjoMr23yvHrqqmYCIAqEyUlC4JdMW82ch5UqD-1FYSaKvPOX3CvwOFna17g5&title=7%20seconds%20timer]]>
+                      </MediaFile>
+                    </MediaFiles>
+                  </Linear>
+                </Creative>
+              </Creatives>
+            </InLine>
+          </Ad>
+        </VAST>
